@@ -1,0 +1,22 @@
+.container-allSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.container-Skills {
+  text-align: center;
+}
+
+.container-list-ul {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.list-img img {
+  max-width: 300px;
+}

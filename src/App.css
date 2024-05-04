@@ -1,0 +1,135 @@
+/* Complete CSS Reset */
+
+/* Box sizing border-box for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+figure,
+figcaption,
+dl,
+dd,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* List with no styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Default font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Default styles for form elements */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Reset border */
+button,
+input {
+  border: none;
+  outline: none; /* Remove outline on click */
+}
+
+/* Reset link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove underline on hover */
+a:hover {
+  text-decoration: none;
+}
+
+/* Default styles for images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Styles for form elements */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Button element styles */
+button {
+  cursor: pointer;
+}
+
+/* Reset tables to default values */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset HTML5 semantic elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Reset code font to monospace */
+pre {
+  font-family: monospace;
+}
+
+/* Reset list item link styles */
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* NavBar */
+body {
+  background-color: #121212;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}

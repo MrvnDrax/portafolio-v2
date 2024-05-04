@@ -1,0 +1,32 @@
+.container-header {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #121212;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.container-nav {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-logo {
+  padding: 5px;
+}
+.logo {
+  padding: 5px;
+  margin-left: 40px;
+}
+.container-links-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-right: 40px;
+}
+.links-li {
+  padding: 5px;
+}
