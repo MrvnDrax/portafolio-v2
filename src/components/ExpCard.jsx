@@ -2,7 +2,7 @@ import "./styles/ExpCard.css";
 
 const ExpCard = () => {
   return (
-    <section className="container-exp">
+    <section className="container-exp" id="exp">
       <div className="container-title">
         <h2>Mi Experiencia</h2>
       </div>

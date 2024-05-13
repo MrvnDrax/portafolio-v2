@@ -1,24 +1,108 @@
+/* Estilos para el contenedor principal */
 .container-card {
   color: #fff;
-  margin-top: 300px;
+  margin: 500px auto 350px;
   max-width: 80%;
   height: 450px;
-  padding: 10px;
-  align-items: center;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", monospace; /* Cambié el nombre de la fuente y agregué la genérica */
 }
+
+/* Estilos para el contenedor de secciones */
 .container-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.container-img img {
-  width: 280px;
-  border: 10px solid #fff;
-  border-radius: 50%;
+
+/* Estilos para el contenedor de información */
+.container-info {
+  margin: 150px 0;
+  padding: 20px;
+  text-align: justify;
 }
+.container-info span {
+  color: #a9f04d;
+}
+
+/* Estilos para el contenedor del nombre */
+.container-name {
+  margin: 250px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  user-select: none;
+}
+.container-name .h3 .junior {
+  color: #a9f04d;
+}
+
+/* Estilos para el punto */
+.dot {
+  color: #551bb3;
+}
+
+/* Estilos para el contenedor de redes sociales */
+.container-social {
+  margin-bottom: 50px;
+}
+
+/* Estilos para la lista de redes sociales */
 .list-social {
   display: flex;
-  gap: 5px;
+  gap: 150px;
+}
+
+.list-social a {
+  font-size: 40px;
+}
+.list-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px transparent;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  /* margin: 20px 3px; */
+  font-size: 2.5rem;
+  transition: 0.4s;
+}
+.list-links a.whatsapp:hover {
+  background-color: #25d366;
+  color: #fff;
+  transition: 0.3s;
+}
+.list-links a.linkedin:hover {
+  background-color: #2867b2;
+  color: #fff;
+  transition: 0.3s;
+}
+.list-links a.twitter:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+}
+.div {
+  width: 200px;
+  /* height: 200px; */
+  /* background-color: #551bb3;
+  border: 7px solid #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #25d366;
 }
